@@ -11,6 +11,9 @@ div {
   width: 150px;
   height: 150px;
   margin: 40px;
+
+  /* div default behavior */
+  display: block;
 }
 
 .box-1 {
