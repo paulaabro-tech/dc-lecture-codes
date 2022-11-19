@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+li:first-child {
+  color: crimson;
+}
+
+li:nth-child(2) {
+  color: blueviolet;
+}
+
+li:nth-last-child(2) {
+  color: chartreuse;
+}
+
+li:last-child {
+  color: deepskyblue;
+}
+
+div {
+  background: bisque;
+}
+
+span:first-of-type,
+p:first-of-type {
+  color: green;
+}
+
+span:last-of-type,
+p:last-of-type {
+  color: orchid;
+}
+
+.container :not(p, .excluded) {
+  color: firebrick;
+}

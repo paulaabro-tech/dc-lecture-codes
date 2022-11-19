@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+input {
+  font-size: 30px;
+  border: 5px solid #ff6996;
+  color: purple;
+}
+
+input::placeholder {
+  color: dodgerblue;
+}
+
+.lorem {
+  color: green;
+}
+
+.lorem-1::first-letter,
+.lorem-2::first-line {
+  color: orangered;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a::before {
+  content: "👉️";
+}
+
+a::after {
+  content: "👈️";
+}
