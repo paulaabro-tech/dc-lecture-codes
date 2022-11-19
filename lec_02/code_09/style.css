@@ -1,0 +1,12 @@
+.container {
+  width: 50vw;
+  height: 50vh;
+  background: springgreen;
+  font-size: 16px;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  background: pink;
+}

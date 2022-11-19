@@ -1,0 +1,19 @@
+.red {
+  background: #f00;
+}
+
+.green {
+  background: #0f0;
+}
+
+.blue {
+  background: #00f;
+}
+
+.mix {
+  background: #fa783c;
+}
+
+.default {
+  background: #000;
+  color: #fff

@@ -1,0 +1,14 @@
+h1 {
+  color: crimson;
+  background: bisque;
+}
+
+p {
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+button {
+  border-color: darkgreen;
+  background-color: mediumspringgreen;
+}
