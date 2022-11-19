@@ -1,0 +1,13 @@
+* {
+  font-family: sans-serif;
+}
+
+.first {
+  color: hotpink;
+  color: dodgerblue;
+}
+
+.second {
+  color: hotpink !important;
+  color: dodgerblue;
+}

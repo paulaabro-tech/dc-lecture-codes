@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 200vw;
+  height: 200vh;
+}
+
+.container {
+  width: 350px;
+  height: 350px;
+  background: hotpink;
+  opacity: 0.5;
+  position: fixed;
+  top: 50px;
+  left: 40px;
+}
+
+.inner-box {
+  width: 200px;
+  height: 200px;
+  background: #f9b062;
+}
+
+.outer-box {
+  width: 100px;
+  height: 100px;
+  background: dodgerblue;
+}
