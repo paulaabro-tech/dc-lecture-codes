@@ -29,3 +29,5 @@ This folder contains all codes for the second CSS module.
 ## `code_13`: [responsiveness](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_03/code_13)
 
 ## `code_14`: [project](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_03/code_14)
+
+## `code_15`: [calc](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_03/code_15)
