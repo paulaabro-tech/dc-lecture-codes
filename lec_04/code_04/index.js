@@ -2,6 +2,7 @@ const person = {
   name: "Paula",
   age: 26,
   gender: "female",
+  height: 1.62,
   address: {
     street: "505 Pondella Rd",
     city: "Fort Myers",
@@ -16,6 +17,7 @@ console.log();
 console.log(person.name);
 console.log(person.age);
 console.log(person.gender);
+console.log(person.height);
 console.log(person.address);
 console.log();
 
