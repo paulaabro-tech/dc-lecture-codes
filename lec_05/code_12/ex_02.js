@@ -1,4 +1,4 @@
-const people = [
+const students = [
   { name: "Rodolfo", score: 7 },
   { name: "Maria", score: 5 },
   { name: "Jon", score: 8 },
@@ -8,4 +8,4 @@ const people = [
   { name: "June", score: 10 }
 ];
 
-console.log(people.map(({ name, score }) => ({ name, result: score >= 7 ? "PASS" : "FAIL" })));
+console.log(students.map(({ name, score }) => ({ name, result: score >= 7 ? "PASS" : "FAIL" })));
