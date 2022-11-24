@@ -1,13 +1,11 @@
 // Faça um programa que receba 3 números inteiros, e deve imprimir, qual é o maior, qual é o menor.
 
-const numbers = [3, 7, -1];
+const num1 = 3;
+const num2 = 7;
+const num3 = -1;
 
-let min = numbers[0];
-let max = numbers[0];
+let min = Math.min(num1, num2, num3);
+let max = Math.max(num1, num2, num3);
 
-for (const number of numbers) {
-  if (number < min) min = number;
-  else if (number > max) max = number;
-}
 console.log(`MIN: ${min}`);
 console.log(`MAX: ${max}`);
