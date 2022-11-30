@@ -23,27 +23,35 @@
         </label>
         <label>
           Converter <strong>para</strong>
-          <select>
-            <option>US$ <strong>Dólar americano</strong></option>
-            <option>€ <strong>Euro</strong></option>
-            <option><strong>Bitcoin</strong></option>
+          <select class="currency-to">
+            <option value="dollar">US$ Dólar americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="bitcoin">Bitcoin</option>
           </select>
         </label>
-        <div class="input-value">
-          <input type="text" value="10.000,00" />
-          <span>R$</span>
-        </div>
-        <button>Converter</button>
-        <div>
-          <img src="./assets/img/brasil.png" alt="bandeira brasil" />
-          <p class="from">Real Brasileiro</p>
-          <p class="amount-from">R$ 10.000,00</p>
-          <img src="./assets/img/arrow.png" alt="seta" />
 
-          <img src="./assets/img/us.png" alt="bandeira" />
-          <p class=""></p>
+        <label>
+          <strong>Valor</strong>
+          <input type="text" placeholder="R$ 10.000,00" />
+        </label>
+
+        <button>Converter</button>
+        <div class="converter">
+          <div>
+            <img src="./assets/img/brasil.png" alt="bandeira brasil" />
+            <p>Real Brasileiro</p>
+            <p class="amount">R$ 10.000,00</p>
+          </div>
+          <img class="arrow" src="./assets/img/arrow.png" alt="seta" />
+
+          <div class="to">
+            <img src="./assets/img/us.png" alt="bandeira" />
+            <p>Dólar Americano</p>
+            <p class="amount">US$ 2.000,00</p>
+          </div>
         </div>
       </main>
     </div>
   </body>
+  <script src="./assets/scripts/script.js"></script>
 </html>
