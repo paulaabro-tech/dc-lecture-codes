@@ -13,3 +13,5 @@ This repository contains all the codes I used while studying DevClub Course.
 ## `lec_05`: [JavaScript P. 2](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_05)
 
 ## `lec_06`: [JavaScript Web](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_06)
+
+## `lec_07`: [JavaScript Web](https://github.com/paulaabro-tech/dc-lecture-codes/tree/main/lec_07)
